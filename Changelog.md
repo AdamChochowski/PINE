@@ -5,6 +5,27 @@ This project adheres to [Semantic Versioning](https://semver.org/) and follows t
 
 ---
 
+## [1.16.0] – 2025-08-31
+**Summary:** Added TPC_StaminaSprint decorator node, introduced node selection and inspection persistency, improved inspection workflow, and enhanced editor performance.
+
+### Added
+- TPC_StaminaSprint  – flexible decorator node decicated for TPC nodes family
+  - Controls the Third Person Controller sprint state based on stamina value
+  - Supports Stamina Regeneration Rate per second when the character is not sprinting
+  - Supports Stamina Drain Rate while sprinting
+  - Allows cooperation between multiple active TPC_StaminaSprint nodes in the Behaviour Tree, maintaining a shared character-level stamina value
+  - Useful for controlling sprint state without interrupting child nodes, enabling smooth transitions between running and walking without extra logic
+- Node Selection and Inspection Persistency – selection and inspection state is now stored in the Behaviour Tree and restored when switching between Play Mode ↔ Edit Mode or changing the inspected tree
+- Inspected Node Indicator – inspected nodes are now visually highlighted in the Behaviour Tree View
+
+### Fixed
+- Behaviour Tree Editor – stability and minor bug fixes
+
+### Changed
+- BehaviourTreeView – performance and memory handling improvements
+
+---
+
 ## [1.15.0] – 2025-08-17
 **Summary:** Introduced Fork Node, migrated legacy nodes, fixed multiple OnStop issues, and improved editor performance.
 
