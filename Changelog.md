@@ -3,6 +3,19 @@
 All notable changes to the **PINE** Unity asset will be documented in this file.  
 This project adheres to [Semantic Versioning](https://semver.org/) and follows the [Keep a Changelog](https://keepachangelog.com/) format.
 
+
+---
+
+## [1.16.1] – 2025-09-01
+**Summary:** Quick fix for node state display and added export to PNG feature.
+
+### Added
+- Export View as PNG – allows saving the currently visible portion of the Behaviour Tree View as a PNG image for quick documentation or sharing.  
+  The new button can be found to the left of the Copy, Cut, and Paste buttons in the toolbar.
+
+### Fixed
+- Behaviour Tree View – fixed an issue where NodeViews were not displaying their current state correctly
+
 ---
 
 ## [1.16.0] – 2025-08-31
