@@ -3,6 +3,14 @@
 All notable changes to the **PINE** Unity asset will be documented in this file.  
 This project adheres to [Semantic Versioning](https://semver.org/) and follows the [Keep a Changelog](https://keepachangelog.com/) format.
 
+---
+
+## [1.16.2] – 2025-09-02
+**Summary:** Quick fixes for NodeView progress bar rendering and TPC_StaminaSprint stamina handling.
+
+### Fixed
+- Behaviour Tree View – fixed an issue where NodeViews pulled from the pool did not correctly display their progress bar
+- TPC_StaminaSprint – fixed an issue where stamina incorrectly dropped to zero after a child node completed successfully
 
 ---
 
